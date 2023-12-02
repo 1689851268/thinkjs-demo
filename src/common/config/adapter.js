@@ -30,19 +30,19 @@ exports.cache = {
 exports.model = {
     type: 'mysql',
     common: {
-        logConnect: isDev,
-        logSql: isDev,
-        logger: (msg) => think.logger.info(msg),
+        logConnect: isDev, // 是否打印数据库连接信息
+        logSql: isDev, // 是否打印 SQL 语句
+        logger: (msg) => think.logger.info(msg), // 打印信息的 logger
     },
     mysql: {
         handle: mysql,
-        database: '',
-        prefix: 'think_',
+        database: 'thinkjs-demo',
+        prefix: '',
         encoding: 'utf8',
         host: '127.0.0.1',
-        port: '',
+        port: '3306',
         user: 'root',
-        password: 'root',
+        password: '000930',
         dateStrings: true,
     },
 };
