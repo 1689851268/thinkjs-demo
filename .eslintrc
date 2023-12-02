@@ -1,0 +1,20 @@
+{
+    "extends": "think",
+    "rules": {
+        "indent": ["error", 4],
+        "comma-dangle": ["error", "only-multiline"],
+        "no-console": ["warn", { "allow": ["warn", "error"] }],
+        "no-unused-vars": [
+            "warn",
+            { "vars": "all", "args": "all", "ignoreRestSiblings": false }
+        ],
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "always",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ]
+    }
+}
