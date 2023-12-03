@@ -1,1 +1,1 @@
-module.exports = [['/user/:id?', 'rest']];
+module.exports = [['/user/user/:id?', 'rest']];
