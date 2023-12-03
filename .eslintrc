@@ -3,7 +3,7 @@
     "rules": {
         "indent": ["error", 4],
         "comma-dangle": ["error", "only-multiline"],
-        "no-console": ["warn", { "allow": ["warn", "error"] }],
+        "no-console": "off",
         "no-unused-vars": [
             "warn",
             { "vars": "all", "args": "all", "ignoreRestSiblings": false }
